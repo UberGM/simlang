@@ -27,4 +27,14 @@ class Minimath
     $mv1 = num1 -= num2
     puts $mv1
   end
+
+  def multiply(num1, num2)
+    $mv1 = num1 * num2
+    puts $mv1
+  end
+
+  def divide(num1, num2)
+    $mv1 = num1 / num2
+    puts $mv1
+  end
 end
